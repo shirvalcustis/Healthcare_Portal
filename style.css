@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background: #54fffc;
+    background: #045457;
     color: white;
     position: sticky;
     top: 0;
@@ -59,11 +59,11 @@ body {
 }
 
 .section1 { background: #045457; }
-.section2 { background: #2bb1cf; }
+.section2 { background: #1e9397; }
 .section3 { background: #045457; }
-.section4 { background: #2bb1cf; }
+.section4 { background: #1e9397; }
 .section5 { background: #045457; }
-.section6 { background: #2bb1cf; }
+.section6 { background: #1e9397; }
 
 /* carousel */
 .carousel {
@@ -80,7 +80,7 @@ body {
 
 /* footer */
 footer {
-    background: #54fffc;
+    background: #045457;
     color: white;
     text-align: center;
     padding: 20px;
