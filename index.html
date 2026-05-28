@@ -1,22 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Healthcare Portal</title>
+    <meta charset="UTF-8">
+    <title>Diamond Healthcare</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to Healthcare Portal</h1>
+<!-- TOP NAV / QUICK LINKS -->
+<header class="topbar">
+    <div class="logo">Diamond Healthcare</div>
 
-    <p>Manage appointments and patient records.</p>
+    <nav class="quicklinks">
+        <a href="#">Find a Doctor</a>
+        <a href="#">Services</a>
+        <a href="#">Locations</a>
+        <a href="#">Appointments</a>
+        <a href="#">Patient Portal</a>
+        <a href="#">Billing & Insurance</a>
+        <a href="#">Contact</a>
+        <a class="emergency" href="#">911 Emergency</a>
+    </nav>
 
-    <button>Login</button>
-    <button>Sign Up</button>
+    <input type="text" placeholder="Search..." id="searchBar">
+</header>
 
-    <script src="app.js"></script>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Diamond Healthcare is here for YOU!</h1>
+        <p>Compassion. Care. Excellence in every moment.</p>
 
+        <div class="hero-buttons">
+            <button>Book Appointment</button>
+            <button>Find Location</button>
+        </div>
+    </div>
+</section>
+
+<!-- AI CHAT BOX -->
+<div class="chatbox">
+    <h3>Ask our AI Assistant</h3>
+    <input type="text" id="chatInput" placeholder="Ask a question...">
+    <button onclick="sendChat()">Send</button>
+    <p id="chatResponse"></p>
+</div>
+
+<!-- SECTION 1: APPOINTMENTS -->
+<section class="section section1">
+    <h2>Schedule an Appointment</h2>
+
+    <div class="toggle-buttons">
+        <button>Virtual</button>
+        <button>In Person</button>
+    </div>
+
+    <a href="#">View Same-Day Appointments →</a>
+</section>
+
+<!-- SECTION 2: FIND DOCTOR -->
+<section class="section section2">
+    <h2>Find a Doctor</h2>
+
+    <input type="text" id="doctorSearch" placeholder="Name, specialty, location...">
+    <button>Filter Options</button>
+    <button>Search</button>
+
+    <ul id="suggestions"></ul>
+</section>
+
+<!-- SECTION 3: LOCATIONS -->
+<section class="section section3">
+    <h2>Find a Location</h2>
+
+    <div class="location-box">
+        <input type="text" placeholder="Enter your location...">
+        <button>Search</button>
+    </div>
+
+    <div class="map-placeholder">
+        <p>📍 Interactive Map Goes Here (Google Maps Embed)</p>
+    </div>
+</section>
+
+<!-- SECTION 4: RATINGS -->
+<section class="section section4">
+    <h2>Patient Ratings</h2>
+
+    <div class="carousel">
+        <button>&lt;</button>
+        <div class="rating-card">
+            <p>"Amazing care and staff!" ⭐⭐⭐⭐⭐</p>
+        </div>
+        <button>&gt;</button>
+    </div>
+</section>
+
+<!-- SECTION 5: ARTICLES -->
+<section class="section section5">
+    <h2>Health Resources</h2>
+    <div class="articles">
+        <div class="article">Heart Health Tips</div>
+        <div class="article">Flu Season Guide</div>
+        <div class="article">Mental Wellness</div>
+    </div>
+</section>
+
+<!-- SECTION 6: SUBSCRIBE -->
+<section class="section section6">
+    <h2>Stay Connected</h2>
+
+    <input type="email" placeholder="Email or Phone Number">
+    <button>Subscribe</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Social Media</a>
+        <a href="#">Quick Links</a>
+    </div>
+
+    <p>© 2026 Diamond Healthcare | (850) XXX-XXXX | contact@diamondhealth.com</p>
+</footer>
+
+<script src="app.js"></script>
 </body>
 </html>
-
-<h1>My First Website</h1>
