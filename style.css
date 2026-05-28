@@ -29,13 +29,14 @@ body {
 
 /* hero */
 .hero {
-    height: 70vh;
+    height: 80vh;
     background: url("imgs/healthcareimg.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    background-size: contain;
 }
 
 .hero h1 {
