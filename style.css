@@ -30,7 +30,7 @@ body {
 /* hero */
 .hero {
     height: 80vh;
-    background: url("'/Users/shirvalcustis/Downloads/Healthcare Portal Project/imgs/healthcareimg.jpg'") center/cover no-repeat;
+    background: url("imgs/healthcareimg.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
