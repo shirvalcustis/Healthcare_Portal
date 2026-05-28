@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* TOP BAR */
+/* top bar */
 .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background: #0b2a4a;
+    background: #54fffc;
     color: white;
     position: sticky;
     top: 0;
@@ -27,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-/* HERO */
+/* hero */
 .hero {
     height: 80vh;
     background: url("") center/cover no-repeat;
@@ -42,7 +42,7 @@ body {
     font-size: 40px;
 }
 
-/* CHAT BOX */
+/* ai chatbox */
 .chatbox {
     position: fixed;
     bottom: 20px;
@@ -53,19 +53,19 @@ body {
     border-radius: 10px;
 }
 
-/* SECTIONS */
+/* section colors */
 .section {
     padding: 60px;
 }
 
-.section1 { background: #f0f8ff; }
-.section2 { background: #e6f2ff; }
-.section3 { background: #d9ecff; }
-.section4 { background: #cce6ff; }
-.section5 { background: #b3daff; }
-.section6 { background: #99ccff; }
+.section1 { background: #045457; }
+.section2 { background: #2bb1cf; }
+.section3 { background: #045457; }
+.section4 { background: #2bb1cf; }
+.section5 { background: #045457; }
+.section6 { background: #2bb1cf; }
 
-/* CAROUSEL */
+/* carousel */
 .carousel {
     display: flex;
     align-items: center;
@@ -78,9 +78,9 @@ body {
     margin: 0 10px;
 }
 
-/* FOOTER */
+/* footer */
 footer {
-    background: #0b2a4a;
+    background: #54fffc;
     color: white;
     text-align: center;
     padding: 20px;
