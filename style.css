@@ -29,7 +29,7 @@ body {
 
 /* hero */
 .hero {
-    height: 80vh;
+    height: 70vh;
     background: url("imgs/healthcareimg.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
