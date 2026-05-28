@@ -1,10 +1,87 @@
 body {
-    font-family: Arial;
-    text-align: center;
-    margin-top: 100px;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-button {
-    padding: 10px 20px;
-    margin: 10px;
+/* TOP BAR */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #0b2a4a;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.quicklinks a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.emergency {
+    color: red;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* CHAT BOX */
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px;
+}
+
+.section1 { background: #f0f8ff; }
+.section2 { background: #e6f2ff; }
+.section3 { background: #d9ecff; }
+.section4 { background: #cce6ff; }
+.section5 { background: #b3daff; }
+.section6 { background: #99ccff; }
+
+/* CAROUSEL */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-card {
+    padding: 20px;
+    background: white;
+    margin: 0 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #0b2a4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
